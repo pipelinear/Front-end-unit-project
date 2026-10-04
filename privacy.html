@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Privacy - Panda</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            // this makes the text boxes hide and show when you click the titles
+            $(".priv-content").hide();
+            $(".priv-title").click(function () {
+                $(this).next(".priv-content").slideToggle(); // this slides down the hidden text right under the title you clicked
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <main class="page-card">
+        <h1>Privacy & Safety</h1>
+        <a href="index.html">Back to Home</a>
+        <p>We care about your data. Click the sections below to read more.</p>
+
+        <!-- the clickable titles and hidden text boxes -->
+        <h3 class="priv-title" style="cursor: pointer; background: #333; padding: 10px; margin-bottom: 0;">Terms of
+            Service</h3>
+        <div class="priv-content" style="padding: 10px; border-left: 2px solid gray; background: #222;">
+            <p>Do not use this to cheat on your homework.</p>
+        </div>
+
+        <h3 class="priv-title"
+            style="cursor: pointer; background: #333; padding: 10px; margin-bottom: 0; margin-top: 5px;">Data Rules</h3>
+        <div class="priv-content" style="padding: 10px; border-left: 2px solid gray; background: #222;">
+            <p>We will not sell your data to outside companies.</p>
+        </div>
+    </main>
+</body>
+
+</html>

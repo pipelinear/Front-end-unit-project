@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Classes - Panda</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            // fade out the alert when clicked
+            $(".alert").click(function(){
+                $(this).fadeOut();
+            });
+        });
+    </script>
+</head>
+<body>
+    <main class="page-card">
+        <h1>Classes Dashboard</h1>
+        <a href="index.html">Back to Home</a>
+        <br><br>
+        
+        <!-- alert redish thing on classes that u can closex -->
+        <div class="alert" style="background: pink; padding: 10px; color: black; border-radius: 5px; cursor: pointer;">
+            You have 3 missing assignments!
+        </div>
+        
+        <p>This is where you will see your classes and assignments from teachers.</p>
+        <ul>
+            <li>Math</li>
+            <li>Science</li>
+            <li>History</li>
+        </ul>
+    </main>
+</body>
+</html>

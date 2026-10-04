@@ -1,0 +1,10 @@
+# Responses stuff
+The first paragraph should focus on the technical skills you learned (writing code, reading documentation, debugging, etc.).  What new HTML tags, jQuery functions, Bootstrap elements, etc. did you learn about?  What did you improve at and what is still an area for improvement?  What would you add to your web site if you had more time?  What would you do differently if you could start over?
+- When I was working on this I learned how to use bootstrap grid system since it was the easiest choice to make the website more response, and I got my jquery skills better. If I had more time, I would probably watch more YouTube videos to add cool features to the website.
+
+
+The second paragraph should focus on your experience working with a partner.  Did you work well together?  What went well?  What did not go well?  How could you have improved the teamwork?  What would you have liked your partner to do differently?  Also include what each person contributed to the project.
+- We worked pretty well with each other. We didn't work a ton in class, but we did do a lot of planning in class. Because of that we face timed eachother and got it done in a week or so. Communication went well, being with eachother did not go well. We could have improved our teamwork by using VS Code to do hands on editing togehther, instead we talked to each other and watch youtube videos. I worked on the initial project propsal, he finished it up. I made the index page, the plan, and build page - I mean we did most of it all together so it was split evenly. We both held our weight.
+
+In the last paragraph, describe what you are most proud of in this project.  What other skills related to web development would you like to learn?
+- I am most proud of how clean our final website looks (and I suppose across different devices too because of Bootstrap!) I also like the navigation on home. In the future, I would like to make a side bar or a top bar instead of like a summary directory look on the home. I would want to make more interactive web applications, if possible some WebGL or of that sorts.

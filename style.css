@@ -1,0 +1,113 @@
+/* all fonts use this */
+* {
+    font-family: Arial, sans-serif;
+}
+
+/* background coloring and spacing around stuff */
+body {
+    margin: 0;
+    padding: 48px 20px;
+    background: #17191a;
+    color: #e2e2e2;
+}
+
+/* like the wrapper, the main contnet, is held in this, the card */
+.page-card {
+    box-sizing: border-box;
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 48px;
+    background: #202223;
+}
+
+
+h1 {
+    margin: 0 0 12px;
+    color: #8ebc91;
+    font-size: clamp(32px, 6vw, 44px);
+}
+
+
+p {
+    max-width: 520px;
+    color: #b8b8b8;
+    line-height: 1.65;
+}
+
+/* this is used on the index page for the 'coming to your school soon' text at the very top to make it small, green, and all caps */
+.eyebrow {
+    margin: 0 0 10px;
+    color: #83a989;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+}
+
+/* this is the extra info box on the index page that starts off hidden until u click the 'click for more info' button */
+#moreInfo {
+    display: none;
+    max-width: 520px;
+    margin: 16px 0;
+    padding: 14px 16px;
+    border-left: 3px solid #739878;
+    background: #292c2d;
+    color: #c3c3c3;
+}
+
+/* does stuff to all the buttons */
+button {
+    display: inline-block;
+    margin: 8px 8px 0 0;
+    padding: 11px 16px;
+    border-radius: 9px;
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+    border: 0;
+    background: #527b58;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+a {
+    color: #8ebc91;
+}
+
+/* this creates the line and spacing above the 'features we are building:' section on the index page */
+.tools-section {
+    margin-top: 36px;
+    padding-top: 24px;
+    border-top: 1px solid #3a3d3e;
+}
+
+
+h2 {
+    margin: 0 0 16px;
+    font-size: 20px;
+}
+
+/* this turns the list of links at the bottom of the index page into a responsive grid so they stack nicely on phones */
+.tools {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+    gap: 10px;
+}
+
+/* this makes the individual feature links at the bottom of the index page look like dark grey buttons with a border */
+.tools a {
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 15px;
+    border: 1px solid #3b3f40;
+    background: #292c2d;
+    color: #c7d8c8;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+/* this styles the little arrow '->' inside the feature links on the index page to be a slightly different green */
+.tools span {
+    color: #91ad94;
+}
